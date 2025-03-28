@@ -27,12 +27,15 @@ main{
     background-color: cornsilk;
 }
 body{
-    background-color:  cornflowerblue;
+    background-color: cornflowerblue;
+    margin: 0;
+    padding: 0;
 }
 footer{
-    background-color: cornflowerblue;
     font-size: 12px;
     font-family: "Raleway", sans-serif;
+    text-align: center;
+    background-color: cornflowerblue;
 }
 .cosme {
     margin: 20px;
@@ -48,7 +51,7 @@ footer{
 }
 .cosme img{
     width: 100%;
-    height: 50%;
+    height: 60%;
 }
 .info{
     padding:20px;
@@ -64,22 +67,37 @@ footer{
 }
 .tarjeta{
     display: flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
 }
 .cosme:hover{
     background-color: rgb(0, 0, 0);
     transform: scale(1.05);
 }
-.eslog h1{
+.text h1{
     font-family:"Raleway", sans-serif ;
     text-align: center;
 }
-.eslog h2{
+.text h2{
     text-align: center;
 }
 .eslog img{
     display: flex;
     width: 400px;
-    justify-content: flex-start;
+    align-items: center;
+}
+.eslog p{
+    font-family:"Raleway", sans-serif  ;
+    text-align: center;
+}
+.courses {
+    padding: 30px;
+}
+.infocursos img{
+    width: 225px;
+    float: left;
     margin-right: 30px;
+}
+.infocursos {
+    overflow: auto;
+    margin-bottom: 30px;
 }
